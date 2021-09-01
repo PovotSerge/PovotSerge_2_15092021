@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en, fr">
+<html lang="en,fr">
 
 <head>
   <meta charset="UTF-8">
@@ -11,7 +11,9 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+
 </head>
+
 <body>
   <div class="container">
     <!-- header -->
@@ -32,10 +34,11 @@
       </nav>
     </header>
     <!-- /.header -->
+
     <!--  main -->
     <main>
       <!-- section -->
-      <section>
+      <section class="section">
         <h1>Trouvez votre hébergement pour les vacances de rêve</h1>
         <p class="paragraffe1">En plein centre ville ou en plein nature</p><br />
         <!-- formulaire -->
@@ -49,12 +52,14 @@
               <input type="search" name="search" class="search-pnl" value="Marseille,France" />
             </div>
             <div class="bouton-recherche">
+              <div class="search-fa"><i class="fas fa-search"></i></div>
               <input type="submit" name="bouton-recherche" value="Rechercher" class="button-primary" />
             </div>
           </div>
           <!-- /.search-panel -->
         </form>
         <!-- /formulaire -->
+
         <!-- .menu-filtres -->
         <div class="menu-filtres">
           <h3>Filtres</h3>
@@ -83,7 +88,7 @@
                 <a href="#" class="econom">Romantique</a>
               </div>
             </div>
-            <div class="filter1 dog animaux">
+            <div class="filter1 dog btn-animaux">
               <div class="icon-money">
                 <i class="fas fa-dog"></i>
               </div>
@@ -94,17 +99,23 @@
           </div>
         </div>
         <!-- /.menu-filtres -->
-        <div class="log500">
-          <i class="fas fa-info icon-info"></i>Plus de 500 logements sont disponible dans cette ville
+        <div class="logo500">
+          <div class="logo-info">
+            <i class="fas fa-info icon-info"></i>
+          </div>
+          <div class="paragr-500">
+            <p>Plus de 500 logements sont disponibles dans cette ville</p>
+          </div>
         </div>
       </section>
       <!-- /section -->
+
       <!-- .section1 -->
       <section class="section1">
         <div class="fonne">
           <h2 id="Héberge" class="page-title">Hébergement à Marseille</h2>
           <div class="card-pos">
-            <div class="card">
+            <div class="card auberge">
               <a href="#" class="card-link">
                 <img src="images/heberg/marcus-loke.jpg" alt="Photo" class="card-image">
               </a>
@@ -247,6 +258,7 @@
               </div>
             </div>
           </div>
+
           <div class="acv-mars espace2">
             <div class="vieux-port">
               <a href="#">
@@ -261,7 +273,7 @@
                 </a>
                 <p class="par-title-img">Notre-Dame-de-la-Garde</p>
               </div>
-              <div class="iles ">
+              <div class="iles">
                 <a href="#">
                   <img src="img/activites/lena-paulin-wH2-EJoDcV0-unsplash.jpg" alt="Photo" class="images-iles">
                 </a>
@@ -279,41 +291,43 @@
 
   <!-- footer -->
   <footer class="footer">
-    <div class="a-propos">
-      <h3 class="title-a-propos">A propos</h3>
-      <ul class="txt-footer">
-        <li class="footer-li">
-          <a href="#" class="txt-footer1">Fonctionnement du site</a>
-        </li>
-        <li class="footer-li">
-          <a href="#" class="txt-footer1">Conditions générales de vente</a>
-        </li>
-        <li class="footer-li">
-          <a href="#" class="txt-footer1">Données et confidentialité</a>
-        </li>
-      </ul>
-    </div>
-    <div class="a-propos espace3">
-      <h3 class="title-a-propos">Nos hébergements</h3>
-      <ul class="txt-footer">
-        <li class="footer-li">
-          <a href="#" class="txt-footer1">Charte qualité</a>
-        </li>
-        <li class="footer-li">
-          <a href="#" class="txt-footer1">Soumettre votre hôtel</a>
-        </li>
-      </ul>
-    </div>
-    <div class="a-propos espace3">
-      <h3 class="title-a-propos">Assistance</h3>
-      <ul class="txt-footer">
-        <li class="footer-li">
-          <a href="#" class="txt-footer1">Centre d'aide</a>
-        </li>
-        <li class="footer-li">
-          <a href="#" class="txt-footer1">Nous contacter</a>
-        </li>
-      </ul>
+    <div class="test">
+      <div class="a-propos">
+        <h3 class="title-a-propos">A propos</h3>
+        <ul class="txt-footer">
+          <li class="footer-li">
+            <a href="#" class="txt-footer1">Fonctionnement du site</a>
+          </li>
+          <li class="footer-li">
+            <a href="#" class="txt-footer1">Conditions générales de vente</a>
+          </li>
+          <li class="footer-li">
+            <a href="#" class="txt-footer1">Données et confidentialité</a>
+          </li>
+        </ul>
+      </div>
+      <div class="a-propos espace3 nos-heberge">
+        <h3 class="title-a-propos">Nos hébergements</h3>
+        <ul class="txt-footer">
+          <li class="footer-li">
+            <a href="#" class="txt-footer1">Charte qualité</a>
+          </li>
+          <li class="footer-li">
+            <a href="#" class="txt-footer1">Soumettre votre hôtel</a>
+          </li>
+        </ul>
+      </div>
+      <div class="a-propos espace3 assistance">
+        <h3 class="title-a-propos">Assistance</h3>
+        <ul class="txt-footer">
+          <li class="footer-li">
+            <a href="#" class="txt-footer1">Centre d'aide</a>
+          </li>
+          <li class="footer-li">
+            <a href="#" class="txt-footer1">Nous contacter</a>
+          </li>
+        </ul>
+      </div>
     </div>
   </footer>
   <!-- /.footer -->
