@@ -1572,6 +1572,10 @@ h3 {
 
 @media all and (max-width: 365px) {
   .logo500 {
-    margin-top: 9em;
+    margin-top: 9.5em;
+  }
+
+  .btn-familial {
+    margin-top: 0.6em;
   }
 }
